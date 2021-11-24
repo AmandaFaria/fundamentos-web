@@ -1,0 +1,82 @@
+/*Estilos da página index.html*/
+.center{
+    text-align: center;    
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center; /*centralizando os conteúdos da container*/
+    align-items: center; /*alinhando o conteúdo ao meio*/
+}
+
+.justify{
+    text-align:justify;
+}
+
+/* Está dando uma cor de fundo e fixando o menu */
+.nav-cor{  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;     
+    background-color: #85F2D3;
+}
+
+#menu li{
+    display: inline; /*colocando a home e o contato um do lado do outro*/
+    padding: 15px;   
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;    
+}
+
+#menu li a:hover{    
+    color: #F2EAE9;
+    background-color:#733669;
+    padding: 20px;    
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%; /*deixa a imagem circular*/
+}
+
+.wh-300{
+    width: 500px;
+    height: 500px;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+hr{
+    color: #F2EAE9;
+}
+
+/*Estilos da página contato.html*/
+.ml-50{
+    margin-left: 50px;
+}
+
+.mb-250{
+    margin-bottom: 250px;
+}
